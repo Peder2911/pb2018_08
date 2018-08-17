@@ -1,0 +1,129 @@
+"start_date","end_date","type","comment","dyad","id","dyad_name","type_name"
+2018-06-15,2018-06-19,3,"ceasefire coded for the policy brief. Will not be part of the end result. 
+
+Type_2: 3-election time truce",624,22,"Government of Colombia - ELN","Election"
+2018-05-25,2018-05-29,3,"ceasefire coded for the policy brief. Will not be part of the end result. 
+
+Type_2: 3-election time truce",624,21,"Government of Colombia - ELN","Election"
+2018-03-09,2018-03-13,3,"ceasefire coded for the policy brief. Will not be part of the end result. 
+
+Type_2: 3-election time truce",624,20,"Government of Colombia - ELN","Election"
+2017-10-01,2018-01-09,2,"End_: ambuigty if end date is 12.01.2018 or 09.01.2018. However, as this is over our ""coded"" time, 
+maybe not so important? As the ceasefire extended outside the coding period, many variables have gotten -1 for ""unclear/missing"". 
+
+Implement: The cease-fire will be verified by a joint mechanism made up of Colombian security forces, ELN members, the UN and the Catholic Church, according to a joint statement by the government and the guerrilla. Agencia CMA( 29.09.2017). Colombia: Government and ELN urge UN to verify ceasefire. 
+- During the temporary end to hostilities, announced during Pope Francis's visit to Colombia, kidnappings and attacks on oil infrastructure are to stop and be monitored by a UN body as well as the government, rebels and church.
+
+
+",624,1,"Government of Colombia - ELN","Peace process"
+2016-12-01,2017-08-15,2,"Link, link_ID:
+It's a recommitment to the final ceasefire first declared the 29th of august and then reiterated in october after the referendum. 
+
+CF_dec_date:
+Since I'm not sure exactly when the previous ceasefire ended I'm setting the date to the day when the revised agreement was signed (Acuerdo final, 24.11.16; UN Security Council, 15.12.16).
+
+Enforcement:
+The enforcement mechanism is a trepartite cooperation between UN unarmed observers, FARC-EP and the Colombian government.
+",623,2,"Government of Colombia - FARC","Peace process"
+2016-10-13,2016-11-30,2,NA,623,3,"Government of Colombia - FARC","Peace process"
+2016-10-03,2016-10-12,2,"Type_1 & type_1_time:
+After the reiteration of the ceasefire President Santos announced that the extention would only last until 31th of october (Buenos Aires Herald, 14.10.2016; Manila Bulletin, 06.10.2018)
+
+Mediator:
+There's no evidence of mediators being involved between the referendum rejection and extention of the ceasefire
+
+Link_ID:
+Tied to the ceasefires between FARC and the colombian government from the 29th of august and from the 24th of november
+
+Implementation, enforcement and DDR:
+Since the agreement is an extention of the former I've assumed that these are the same.
+",623,4,"Government of Colombia - FARC","Peace process"
+2016-08-29,2016-10-02,2,"Declaration date and effect date:
+The ceasefire part of the peace agreement was reached on the 22nd and signed the 23rd of june 2016 (Nicholas Casey, 22.06.2016). However this first agreement wouldn't actually begin unless there was a conclusion on the final peace agreement. Therefore I've set the declaration date to the actual order to cease fire, and the effect date to when it was set to start (see evidence_onset).
+
+Link, link_ID:
+Follow-up on the unilateral truce by FARC from 2015
+
+Type_1 & Type_1_time:
+To be replaced by the peace treaty.
+
+Enforcement:
+The enforcement mechanism is a trepartite cooperation between UN unarmed observers, FARC-EP and the Colombian government.
+
+Ended/end date:
+I set the 2nd of october as the end date because the no-vote of the referendum officially made it invalid. However, none of the codes in the variable ""ended"" captures this.
+",623,5,"Government of Colombia - FARC","Peace process"
+2015-08-20,2016-08-28,2,"News agencies have stated that the unilateral ceasefire declared in july 2015 was extended indefinetly, 
+but no evidence can be found for how long. Evidence suggest that it lasted at least 3 months after it first was annouced 20 july 
+
+",623,6,"Government of Colombia - FARC","Peace process"
+2015-07-20,2015-08-19,2,NA,623,7,"Government of Colombia - FARC","Peace process"
+2014-12-20,2015-05-22,2,"Implement: The guerrilla group called for international observers from  organizations including the Red Cross to monitor. 
+
+the FARC has asked that the Union of South American Nations, the Community of Latin American and Caribbean States, the International Committee of the Red Cross and the Broad Front for Peace oversee the ceasefire.
+Uncertain if implement should be coded when the ceasefire is unilateral and hence an agreement between two parties have not been made? ",623,8,"Government of Colombia - FARC","Peace process"
+2014-06-09,2014-06-30,3,"type_2: 3 - election time truce",623,9,"Government of Colombia - FARC","Election"
+2014-05-20,2014-05-28,3,"type_2: 3 - election time truce",623,10,"Government of Colombia - FARC","Election"
+2014-05-20,2014-05-28,3,"type_2: 3 - election time truce",624,10,"Government of Colombia - ELN","Election"
+2013-12-15,2014-01-15,3,"type_2: 3 - Holiday truce over christmas",623,11,"Government of Colombia - FARC","Religious / other"
+2012-11-20,2013-01-20,2,NA,623,12,"Government of Colombia - FARC","Peace process"
+2004-05-13,NA,2,"Not certain if should be coded as a ceasefire. The agreement is made as a safe zone area where AUC can only leave with the permission of government officials. The safe zone is to contribute to the improvement and verification of the cessation of hostilities.",-1,28,"Government of Colombia - AUC","Peace process"
+2003-07-15,NA,2,"
+
+DDR: Demobilization started in 2003. Demobilization and amnesty between 2003-2006.
+
+Continued violations throughout the ceasefire:
+""In the 22 months of the cease-fire, between December 2002 and September 2004, the government reported a 67 percent reduction in homicides and an 83 percent reduction in massacres."" (Arnson, 2005)
+
+Enforcement:  The OAS Support Mission, MAPP / OAS, will verify compliance with this Agreement and commitments acquired.
+
+The ceasefire is an agreement to maintain the ceasefire declared in December 2002.",-1,27,"Government of Colombia - AUC","Peace process"
+2002-12-01,2003-07-14,2,"1. Fractionalizing: A paramilitary splinter group known as Metro has warned that it will not abide by the AUC ceasefire that was declared recently. The group, which is a splinter organisation of the United Self-Defence Forces of Colombia (AUC), has also said it will not enter into negotiations with the government 
+
+2. Fractionalizing: The only faction that has not subscribed to the ceasefire is the so-called Metro Bloc, which operates in the northwestern department of Antioquia.
+
+Geography: ""We have taken the historic decision to declare a unilateral ceasefire with national reach,"" an open letter to President Uribe signed by Carlos Castano, the AUC chief, stated.
+
+DDR: Demobilization started in 2003, but in accordance with the peace negotiations and not as part of the ceasefire. Demobilization and amnesty between 2003-2006.
+
+Continued violations throughout the ceasefire:
+""In the 22 months of the cease-fire, between December 2002 and September 2004, the government reported a 67 percent reduction in homicides and an 83 percent
+reduction in massacres."" (Arnson, 2005)
+
+Enforcement: The OAS Support Mission, MAPP / OAS, will verify compliance with this Agreement and commitments acquired.",-1,13,"Government of Colombia - AUC","Peace process"
+2001-12-18,2002-01-06,3,"type_2: 3 - holiday ceasefire",624,14,"Government of Colombia - ELN","Religious / other"
+2000-10-31,2000-11-01,3,"Implement: Observers From  Cuba, France, Norway, Spain and Switzerland were to monitor the releases, he added, 
+and the army would leave the designated area ""after the hostages are set free."" Agence France-Presse, 01.11.2000
+
+Uncertain if the government is part of the ceasefire as they are mentioned as observers! Both are coded. 
+
+Type_2: 3 - hostage release",624,15,"Government of Colombia - ELN","Hostage release"
+2000-10-31,2000-11-01,3,"Implement: Observers From  Cuba, France, Norway, Spain and Switzerland were to monitor the releases, he added, 
+and the army would leave the designated area ""after the hostages are set free."" Agence France-Presse, 01.11.2000
+
+Uncertain if the government is part of the ceasefire as they are mentioned as observers! For now; both are coded and set to bilateral
+
+Type_2: 3 - hostage release",624,15,"Government of Colombia - ELN","Hostage release"
+2000-04-13,2000-04-23,3,"type_2: 3 - holy week truce",624,16,"Government of Colombia - ELN","Religious / other"
+1999-12-20,2000-01-10,3,"type_2: 3 - holiday cesaefire for christmas",623,17,"Government of Colombia - FARC","Religious / other"
+1998-12-20,1999-01-06,3,"Type_2: 3 - holiday ceasefire during christmas",-1,18,"Government of Colombia - AUC","Religious / other"
+1990-06-01,1991-02-15,2,"Declaration and effect date:
+The sources are a bit ambigous, but I've interpreted them as may being the declaration date, and june the effect date.
+
+DDR_reference: 
+Not sure if the reference to disarmament in evidence_onset is directly related to the ceasefire or a parallell agreement
+
+Ending:
+Ended as the conflict were resolved by a peace agreement.
+
+Type 2:
+To free hostages and negotiate peace
+",626,26,"Government of Colombia - EPL","Peace process"
+1989-05-02,NA,2,NA,626,25,"Government of Colombia - EPL","Peace process"
+1989-02-28,NA,2,"Declaration and effect dates:
+A bit uncertain as ONE source also reports a ceasefire the 17th of February. (BBC, 20.02.1989)
+
+",623,19,"Government of Colombia - FARC","Peace process"
+1989-02-05,NA,2,"DDR-reference:
+Coded as one since it's a recomitment to the former ceasefire",625,24,"Government of Colombia - M-19","Peace process"
+1989-01-10,1989-02-04,2,NA,625,23,"Government of Colombia - M-19","Peace process"
