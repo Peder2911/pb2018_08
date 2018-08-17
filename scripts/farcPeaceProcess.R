@@ -1,3 +1,20 @@
+source('dependencies.R')
+
+expl <- read.csv('data/casualties.csv',stringsAsFactors = FALSE)
+expl$date <- date(expl$date)
+
+expl_farc <- expl[str_detect(expl$dyad,'FARC'),]
+cf_data <- read.csv('data/cf_data.csv',stringsAsFactors = FALSE)
+cf_data$start_date <- date(cf_data$start_date)
+cf_data$end_date <- date(cf_data$end_date)
+cf_farc <- cf_data[str_detect(cf_data$dyadName,'FARC'),]%>%
+  mutate(end_date = if_else(is.na(end_date),
+                            start_date + 10,
+                            end_date))%>%
+  .[complete.cases(.),]%>%
+  unique()%>%
+  arrange(start_date)
+
 vizDat <- expl_farc%>%
   mutate(monthstart = paste(year,month,'01',sep = '-')%>%
            date()+31)%>%
@@ -69,4 +86,4 @@ farcPPplot <- ggplot(vizDat)+
         plot.margin = margin(t = 0.3,l = 0.2,r = 0.2,unit = 'cm'))  
 
 farcPPplot
-ggsave('./plots/pb2018_08/farcPP.png',farcPPplot,width = 13,height = 8.5,units = 'cm',dpi = 'print',device = 'png')
+ggsave('./plots/farcPP.png',farcPPplot,width = 13,height = 8.5,units = 'cm',dpi = 'print',device = 'png')

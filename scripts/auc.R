@@ -1,4 +1,9 @@
+source('dependencies.R')
+
 # AUC plot ##########################
+
+expl <- read.csv('data/casualties.csv',stringsAsFactors = FALSE)
+expl$date <- date(expl$date)
 
 expl_auc <- expl[str_detect(expl$dyad,'AUC'),]
 
@@ -55,4 +60,4 @@ aucPlot <- expl_auc%>%
 #        legend.spacing.x = unit(0.5,units = 'cm'),
         plot.margin = margin(l = 0.7,r = 1.5,t = 0.3,unit = 'cm'))
 
-ggsave('./plots/pb2018_08/aucPlot.png',aucPlot,height = 8.5,width = 13,units = 'cm',device = 'png',dpi = 'print')
+ggsave('./plots/aucPlot.png',aucPlot,height = 8.5,width = 13,units = 'cm',device = 'png',dpi = 'print')

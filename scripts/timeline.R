@@ -1,8 +1,12 @@
-# Event data for eventing ###########
-events <- read_xlsx('data/Events_Colombia.xlsx')%>%
-  mutate(names = row_number())
+source('dependencies.R')
 
-# Event timeline ####################
+# Event data for eventing ###########
+events <- read.csv('data/events.csv',stringsAsFactors = FALSE)%>%
+  mutate(description = row_number())
+cf_data <- read.csv('data/cf_data.csv')
+cf_data$start_date <- date(cf_data$start_date)
+cf_data$end_date <- date(cf_data$end_date)
+
 tlPlot <- events%>%
   mutate(id = row_number(),
          start_year = date(paste(start_year,'01','01',sep = '-')),
@@ -24,7 +28,7 @@ tlPlot <- events%>%
   
   geom_text(aes(x = year(start_year + (end_year - start_year) / 2)-0.5,
                 y = 5,
-                label = names),
+                label = description),
             angle = 0,
             size = 3,
             hjust = 0.5,
@@ -61,4 +65,4 @@ tlPlot <- events%>%
                     breaks = unique(cf_data$dyadName),
                     name = 'Conflict dyad')
 
-ggsave('./plots/pb2018_08/timeline.png',tlPlot,height = 6,width = 20,units = 'cm',device = 'png',dpi = 'print')
+ggsave('./plots/timeline.png',tlPlot,height = 6,width = 20,units = 'cm',device = 'png',dpi = 'print')
