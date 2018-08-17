@@ -1,2 +1,6 @@
 plots/*
 !plots/.gitkeep
+.Rhistory
+.RData
+.Rproj.user/
+
